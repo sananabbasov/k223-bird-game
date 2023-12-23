@@ -21,6 +21,20 @@ body {
   background-position: center;
   position: absolute;
   transition: 0.1s ease-in-out;
+  z-index: 1;
+}
+#gameZone .bait {
+  background-image: url("https://cdn.pixabay.com/photo/2023/07/31/14/09/earthworm-8161081_1280.png");
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  transition: 0.1s ease-in-out;
+  transform: rotate(90deg);
+  top: 160px;
+  left: 100px;
 }
 #gameZone .basket {
   background-image: url("../img/basket.png");
